@@ -1,0 +1,116 @@
+@font-face {
+  font-family: miama;
+  src: url(../fonts/miama.regular.ttf);
+}
+body {
+  font-family: "Inter", system-ui;
+  background-color: black;
+  color: white;
+}
+.container {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.btn_primary {
+  background: rgb(230, 83, 60);
+  border-radius: 46px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 1060px;
+  height: 46px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.nav_list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  gap: 47px;
+}
+
+.nav_list a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.Fitness {
+  color: rgb(230, 83, 60);
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+*/ body {
+  font-family: "Inter", system-ui;
+  width: 1060px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
+.btn_primary {
+  background: rgb(230, 83, 60);
+  border-radius: 42px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 40px;
+  color: white;
+}
+
+.active {
+  background: rgb(230, 83, 60);
+  border-radius: 46px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 1060px; */
+}
+.nav_list {
+  list-style-type: none;
+  display: flex;
+  gap: 47px;
+  display: flex;
+  align-items: center;
+}
+
+.nav_list li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.nav_logo {
+  color: rgb(230, 83, 60);
+  font-weight: 800;
+  font-style: italic;
+}
+/* hero section */
+.hero_section {
+  display: flex;
+  margin: 30px auto;
+}
+.hero_section__text {
+  text-align: left;
+}
+.hero_h1 {
+  font-weight: 900;
+  font-size: 78px;
+}
+.btn_transparent {
+  border-radius: 42px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 40px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
